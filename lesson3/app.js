@@ -1,0 +1,12 @@
+var c = document.getElementById("Canvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(0,0);
+ctx.lineTo(300,300);
+ctx.lineTo(300,0);
+ctx.lineTo(0,300);
+ctx.closePath();
+ctx.strokeStyle = "red";
+ctx.stroke();
+ctx.fillStyle = "blue";
+ctx.fill();
